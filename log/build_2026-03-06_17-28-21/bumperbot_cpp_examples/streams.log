@@ -1,0 +1,87 @@
+[0.022s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake /home/sanket/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.632s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.703s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.727s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.841s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.845s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.985s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.068s] -- Looking for pthread.h
+[1.139s] -- Looking for pthread.h - found
+[1.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.213s] -- Found Threads: TRUE  
+[1.284s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.338s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.422s] -- Configured cppcheck include dirs: /home/sanket/bumperbot_ws/src/bumperbot_cpp_examples/include
+[1.422s] -- Configured cppcheck exclude dirs and/or files: 
+[1.423s] -- Added test 'lint_cmake' to check CMake code style
+[1.423s] -- Added test 'uncrustify' to check C / C++ code style
+[1.423s] -- Configured uncrustify additional arguments: 
+[1.424s] -- Added test 'xmllint' to check XML markup files
+[1.425s] -- Configuring done
+[1.441s] -- Generating done
+[1.448s] -- Build files have been written to: /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples
+[1.458s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake /home/sanket/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples
+[1.459s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[1.503s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.503s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.503s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[1.503s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.651s] [ 62%] [32m[1mLinking CXX executable simple_parameter[0m
+[4.814s] [ 62%] Built target simple_parameter
+[5.792s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.986s] [ 75%] Built target simple_publisher
+[9.326s] [ 87%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[9.401s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[9.702s] [100%] Built target simple_turtlesim_kinematics
+[9.737s] [100%] Built target simple_subscriber
+[9.751s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[9.754s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples
+[9.764s] -- Install configuration: ""
+[9.765s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include
+[9.765s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include/bumperbot_cpp_examples
+[9.765s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[9.765s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[9.767s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[9.767s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[9.769s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[9.769s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[9.769s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[9.769s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[9.771s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[9.771s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[9.772s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[9.772s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[9.773s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[9.774s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[9.774s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[9.774s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[9.777s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/bumperbot_ws/install/bumperbot_py_examples:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples

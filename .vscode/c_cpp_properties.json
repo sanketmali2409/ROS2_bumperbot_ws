@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "ROS",
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/sanket/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
+        "/usr/include/**"
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "intelliSenseMode": "linux-gcc-x64",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
