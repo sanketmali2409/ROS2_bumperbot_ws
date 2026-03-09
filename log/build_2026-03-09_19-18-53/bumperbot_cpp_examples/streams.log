@@ -1,0 +1,38 @@
+[0.017s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.113s] [ 87%] Built target simple_publisher
+[0.113s] [ 87%] Built target simple_parameter
+[0.113s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[0.113s] [ 87%] Built target simple_subscriber
+[5.482s] [100%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[5.770s] [100%] Built target simple_turtlesim_kinematics
+[5.777s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[5.778s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples
+[5.783s] -- Install configuration: ""
+[5.783s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include
+[5.783s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include/bumperbot_cpp_examples
+[5.783s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[5.784s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[5.784s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[5.785s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[5.785s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[5.788s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[5.788s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[5.788s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[5.790s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_cpp_examples
