@@ -1,5 +1,7 @@
 /home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/uninstall.dir
 /home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/bumperbot_controller_uninstall.dir
+/home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir
+/home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir
 /home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/test.dir
 /home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/edit_cache.dir
 /home/sanket/bumperbot_ws/build/bumperbot_controller/CMakeFiles/rebuild_cache.dir
