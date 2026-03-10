@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.096s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.348s] running egg_info
+[0.349s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.349s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.349s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.351s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.352s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.375s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[6.187s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[6.490s] [100%] Built target simple_controller
+[6.497s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --build /home/sanket/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[6.498s] Invoking command in '/home/sanket/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_controller
+[6.504s] -- Install configuration: ""
+[6.504s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[6.504s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[6.504s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[6.504s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[6.504s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[6.505s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.505s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.505s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[6.505s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[6.505s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[6.529s] Listing '/home/sanket/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[6.533s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/include/include
+[6.533s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[6.533s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[6.533s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[6.536s] -- Set runtime path of "/home/sanket/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controller.yaml
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[6.536s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[6.536s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[6.536s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[6.536s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[6.536s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[6.537s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[6.537s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[6.537s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[6.537s] -- Up-to-date: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[6.537s] -- Installing: /home/sanket/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[6.539s] Invoked command in '/home/sanket/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanket/ros2_ws/install/my_robot_controller:/home/sanket/robot_ws/install/robot_navigation:/home/sanket/robot_ws/install/robot_motor_control:/home/sanket/robot_ws/install/robot_lidar:/opt/ros/humble /usr/bin/cmake --install /home/sanket/bumperbot_ws/build/bumperbot_controller

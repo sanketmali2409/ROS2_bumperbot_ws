@@ -1,21 +1,17 @@
 {
-  "configurations": [
-    {
-      "name": "ROS",
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/opt/ros/humble/include/**",
-        "/home/sanket/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
-        "/usr/include/**"
-      ],
-      "compilerPath": "/usr/bin/g++",
-      "intelliSenseMode": "linux-gcc-x64",
-      "cStandard": "gnu11",
-      "cppStandard": "c++17"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "ROS2",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "/usr/include/eigen3/**"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
 }
